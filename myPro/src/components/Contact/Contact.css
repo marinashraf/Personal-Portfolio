@@ -1,0 +1,262 @@
+.contact{
+
+padding:120px 0;
+background:var(--bg2);
+position:relative;
+
+overflow:hidden;
+
+}
+
+.chat-card{
+
+max-width:650px;
+
+margin:70px auto 40px;
+
+background:var(--bg3);
+
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:30px;
+
+overflow:hidden;
+
+box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+position:relative;
+
+z-index:2;
+
+}
+
+.chat-header{
+
+display:flex;
+
+align-items:center;
+
+gap:18px;
+
+padding:25px 30px;
+
+background:rgba(255,255,255,.05);
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.online{
+
+width:15px;
+
+height:15px;
+
+background:#22c55e;
+
+border-radius:50%;
+
+animation:pulse 2s infinite;
+
+}
+
+.chat-header h3{
+
+color:var(--text-header);
+
+font-size:22px;
+
+margin-bottom:5px;
+
+}
+
+.chat-header span{
+
+color:#bdbdbd;
+
+font-size:15px;
+
+}
+
+form{
+
+padding:35px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+
+}
+
+form input,
+
+form textarea{
+
+padding:18px;
+
+background:var(--form-bg);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:15px;
+
+color:white;
+
+outline:none;
+
+transition:.35s;
+
+font-size:16px;
+
+}
+
+form textarea{
+
+resize:none;
+
+}
+
+form input:focus,
+
+form textarea:focus{
+
+border-color:#8b5cf6;
+
+box-shadow:0 0 20px rgba(139,92,246,.25);
+
+}
+
+form button{
+
+height:55px;
+
+border:none;
+
+border-radius:15px;
+
+background:linear-gradient(90deg,#8b5cf6,#3b82f6);
+
+color:white;
+
+font-size:17px;
+
+font-weight:600;
+
+cursor:pointer;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:10px;
+
+transition:.35s;
+
+}
+
+form button:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 15px 30px rgba(139,92,246,.35);
+
+}
+
+.contact-social{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+position:relative;
+
+z-index:2;
+
+}
+
+.contact-social a{
+
+width:60px;
+
+height:60px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:50%;
+
+background:var(--card);
+
+font-size:22px;
+
+transition:.35s;
+
+}
+
+.contact-social a:hover{
+
+background:var( --card-span);
+
+transform:translateY(-8px) ;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.4);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.contact{
+
+padding:90px 0;
+
+}
+
+.chat-card{
+
+margin-top:50px;
+
+border-radius:22px;
+width: 585px;
+
+}
+
+form{
+
+padding:25px;
+
+}
+
+}

@@ -1,0 +1,59 @@
+
+:root {
+  /* Colors */
+  --primary: #7C3AED;
+  --secondary: #38BDF8;
+  --bg:#0f172a;
+  --bg2:linear-gradient(#172137,#1c2841,#172137);
+  --bg3:rgba(255,255,255,.05);
+  --bg-light: #1E293B;
+  --form-bg:rgba(255,255,255,.05);
+--text-header:#fff;
+--nav-active:rgba(7,11,26,.85);
+
+  --text: #F8FAFC;
+  --text-secondary: #CBD5E1;
+--border-Card:rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.08);
+  --certificate-logo:rgba(255,255,255,.06);
+  --card-h4: #8b5cf6;
+  --card-span: #c4b5fd;
+  --nav-mobile-bg:#0f172a;
+  --btn-animat-bg:rgba(255,255,255,.15);
+/* about */
+--about-P: #d1d5db;
+--about-Card: rgba(255,255,255,.05);
+  /* Effects */
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  --transition: 0.35s ease;
+
+  /* Border Radius */
+  --radius: 16px;
+
+  /* Container */
+  --container: 1200px;
+}
+
+.white-theme{
+--bg2:#eff0f2d8;
+--bg:linear-gradient(#e4e0e0d0,#dad8d8d0,#e9e8e8d0);
+/* --bg:#e4e0e0d0; */
+ --text: #0F172A;
+   /* --text-secondary: #424344; */
+   --text-header:#050505;
+   --nav-active:rgba(189, 189, 190, 0.849);
+   /* --about-Card: rgba(244, 238, 238, 0.696); */
+
+   --about-Card: rgba(220, 220, 223, 0.525); 
+
+ --border-Card:rgba(255, 255, 255, 0.08);
+    --about-P: #999a9a;
+    --border-Card:rgba(255, 255, 255, 0.08);
+   --certificate-logo:rgba(90, 89, 89, 0.06);
+    --card-h4: #8351f8;
+      --card-span: #9a88e7;
+        --form-bg:rgba(255, 255, 255, 0.443);
+        --nav-mobile-bg:rgb(208, 208, 213);
+         --text-secondary: black;
+          --btn-animat-bg:rgba(218, 217, 217, 0.692);
+}

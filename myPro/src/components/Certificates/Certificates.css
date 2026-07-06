@@ -1,0 +1,174 @@
+.certificates {
+  padding: 100px 0;
+  background: var(--bg2);
+
+  color: #fff;
+    
+position:relative;
+
+overflow:hidden;
+ 
+}
+
+
+/*================ Grid ================*/
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+   margin: 60px 15px 0px 15px;
+}
+
+/*================ Card ================*/
+
+.certificate-card {
+  position: relative;
+  /* background: var(--about-Card); */
+  background:var(--bg3);
+  box-shadow:0 20px 50px rgba(0,0,0,.35);
+  border: 1px solid var( --border-Card);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: .4s;
+  backdrop-filter: blur(12px);
+}
+
+.certificate-card:hover {
+  transform: translateY(-12px);
+  border-color: #8b5cf6;
+  box-shadow: 0 15px 35px rgba(139,92,246,.25);
+}
+
+/*================ Verified ================*/
+
+.verified {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+
+  background: #22c55e;
+  color: var(--text-header);
+
+  font-size: 13px;
+  font-weight: 600;
+
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/*================ Logo ================*/
+
+.certificate-logo {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  margin-bottom: 25px;
+
+  border-radius: 50%;
+  background: var( --certificate-logo);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .4s;
+}
+
+.certificate-logo img {
+  width: 60%;
+}
+
+.certificate-card:hover .certificate-logo {
+  transform: rotate(10deg) scale(1.08);
+}
+
+/*================ Titles ================*/
+
+.certificate-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: var(--text-header);
+}
+
+.certificate-card h4 {
+  color:var( --card-h4);
+  margin-bottom: 22px;
+  font-weight: 500;
+}
+
+/*================ Skills ================*/
+
+.certificate-skills {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.certificate-skills span {
+  background: rgba(139,92,246,.15);
+  color:var(--card-span);
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/*================ Button ================*/
+
+.certificate-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  text-decoration: none;
+
+  color: white;
+
+  padding: 12px 22px;
+
+  border-radius: 30px;
+
+  background: linear-gradient(90deg,#8b5cf6,#6d28d9);
+
+  transition: .35s;
+}
+
+.certificate-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(139,92,246,.35);
+}
+
+
+
+
+/*================ Responsive ================*/
+
+@media(max-width:992px){
+
+.certificates-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.certificates{
+
+padding:80px 0;
+
+}
+
+.certificates-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

@@ -3,7 +3,7 @@ import "./About.css";
 import { motion } from "framer-motion";
 import Counter from "../Counter/Counter";
 // import heroImg from "../../assets/images/new.png";
-import heroImg from "../../assets/images/Screenshot_2026-07-04_025003-removebg-preview.png";
+import heroImg from "../../assets/images/girl.png";
 import "../../assets/Styles/global.css"
 function About() {
     // console.log(CountUp);

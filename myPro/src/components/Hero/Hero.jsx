@@ -2,7 +2,8 @@ import "./Hero.css";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 // import heroImg from "../../assets/images/Marina.PNG";
-import heroImg from "../../assets/images/bg-removebg-preview.png";
+import heroImg from "../../assets/images/girl.png";
+
 
 import {
   FaGithub,
@@ -127,13 +128,7 @@ function Hero() {
       <div className="dots one"></div>
       <div className="dots two"></div>
 
-      {/* <div className="scroll-down">
-        <span>Scroll Down</span>
-
-        <div className="mouse">
-          <div className="wheel"></div>
-        </div>
-      </div> */}
+     
     </section>
   );
 }

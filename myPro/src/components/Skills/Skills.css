@@ -142,3 +142,13 @@
 }
 
 }
+
+@media (max-width:576px){
+
+.skills .container h2{
+    font-size:25px;
+}
+body{
+  font-size: medium;
+}
+}

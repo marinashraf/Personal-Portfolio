@@ -260,3 +260,18 @@ padding:25px;
 }
 
 }
+@media (max-width:576px){
+    .contact .container h2{
+        font-size: 25px;
+    }
+ 
+.chat-card{
+     width: 90%;
+ margin: auto;
+}
+    form{
+        text-align: center;
+        /* width: fit-content; */
+        margin: auto;
+    }
+}

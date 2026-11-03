@@ -68,7 +68,7 @@ function About() {
           </a> */}
           <button className="btn primary">
 
-              <a href="/myPro/public/MarinaCV.pdf"  download>
+              <a href="#"  download>
             Download CV
           </a> 
           </button>

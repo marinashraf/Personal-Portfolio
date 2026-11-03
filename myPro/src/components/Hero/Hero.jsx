@@ -54,7 +54,7 @@ function Hero() {
             Marina <span>Ashraf</span>
           </motion.h1>
 
-          <motion.div variants={item}>
+          <motion.div variants={item} className=" front">
             <TypeAnimation
               sequence={[
                 "Frontend Developer",
@@ -83,7 +83,7 @@ function Hero() {
               Hire Me
             </button>
 
-            <a href="\public\MarinaCV.pdf" className="btn secondary" download>
+            <a href="#" className="btn secondary" download>
               Download CV
             </a>
           </motion.div>

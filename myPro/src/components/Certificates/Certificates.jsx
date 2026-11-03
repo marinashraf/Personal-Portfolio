@@ -17,7 +17,7 @@ const certificates = [
   },
   {
     image: nti,
-    title: "Frontend Development",
+    title: "National Telecommunication Institute",
     organization: "NTI",
     skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     link: "#",
@@ -25,7 +25,7 @@ const certificates = [
  
    {
     image: iti,
-    title: "Frontend Development",
+    title: "Information Technology Institute",
     organization: "ITI",
     skills: ["HTML", "CSS", "JavaScript"],
     link: "#",

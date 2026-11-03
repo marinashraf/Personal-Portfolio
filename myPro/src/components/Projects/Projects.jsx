@@ -10,7 +10,7 @@ import project4 from "../../assets/images/prog5.png";
 
 const projects = [
   {
-    title: "Food Website",
+    title: "Coffee Website",
     category: "React",
     image: project1,
     github: "#",
@@ -19,7 +19,7 @@ const projects = [
   },
 
   {
-    title: "Portfolio",
+    title: "sweet Website",
     category: "React",
     image: project2,
     github: "#",
@@ -28,7 +28,7 @@ const projects = [
   },
 
   {
-    title: "E-Commerce",
+    title: "Landing Page",
     category: "JavaScript",
     image: project3,
     github: "#",
@@ -37,7 +37,7 @@ const projects = [
   },
 
   {
-    title: "Landing Page",
+    title: " Food Landing Page",
     category: "HTML/CSS",
     image: project4,
     github: "#",

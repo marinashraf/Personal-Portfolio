@@ -163,3 +163,10 @@ top:20px;
 }
 
 }
+@media(max-width:576px){
+
+.footer .container h2{
+    font-size: 25px;
+}
+
+}

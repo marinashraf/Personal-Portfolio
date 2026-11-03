@@ -199,3 +199,9 @@ height:220px;
 }
 
 }
+@media(max-width:576px){
+.projects .container h2{
+  font-size: 25px;
+}
+
+}

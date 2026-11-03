@@ -151,9 +151,11 @@ text-decoration: none;
 }
 
 .about-content h2{
-    font-size:30px;
+    font-size:25px;
 }
-
+.about-content p{
+  font-size: 15px;
+}
 .about-image img{
     width:260px;
 }

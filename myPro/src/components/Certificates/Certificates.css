@@ -170,5 +170,15 @@ padding:80px 0;
 grid-template-columns:1fr;
 
 }
+}
+@media(max-width:576px){
+
+.certificates .container h2{
+  font-size: 25px;
+}
+.verified{
+  font-size: 10px;
+}
 
 }
+

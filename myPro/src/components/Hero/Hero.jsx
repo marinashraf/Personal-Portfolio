@@ -1,7 +1,6 @@
 import "./Hero.css";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-// import heroImg from "../../assets/images/Marina.PNG";
 import heroImg from "../../assets/images/girl.png";
 
 
